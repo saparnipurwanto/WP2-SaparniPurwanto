@@ -2,7 +2,7 @@
 class latihan1 extends CI_Controller
 {
     public function index()
-    {    
+    {
         echo "Selamat Datang.. selamat belajar Web Programming";
         //$this->load->view('view-latihan1');
     }
@@ -18,6 +18,6 @@ class latihan1 extends CI_Controller
         $data['hasil'] = $this->Model_latihan1->jumlah($n1, $n2);
 
 
-        $this->load->view('view-latihan1' , $data);
+        $this->load->view('view-latihan1', $data);
     }
 }
